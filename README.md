@@ -1,6 +1,6 @@
 # Chatio v4.0 🌍🚀
 
-![Chatio Icon](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![Chatio Icon](icon/chatio.png)
 
 Chatio, çağrı ve SMS geçmişinizdeki numaraları rehberinize kaydetmeden saniyeler içinde WhatsApp üzerinden mesaj atmanızı sağlayan hızlı, güvenli ve modern bir Android uygulamasıdır. Artık **4 farklı dil desteği** ile tüm dünyada kullanılmaya hazır!
 

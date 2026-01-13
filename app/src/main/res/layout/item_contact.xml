@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/md_theme_light_surface"
+    app:strokeWidth="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Add Contact Button -->
+        <ImageButton
+            android:id="@+id/btnAddContact"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_person_add"
+            app:tint="@color/md_theme_light_primary"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:visibility="gone"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/add_contact_button_description"/>
+
+        <!-- Contact Name -->
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Ali Veli"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/btnAddContact"
+            app:layout_constraintEnd_toStartOf="@+id/whatsappButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/numberText"
+            app:layout_goneMarginStart="0dp"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/numberText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="+90 555 123 45 67"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp"
+            app:layout_constraintStart_toStartOf="@+id/nameText"
+            app:layout_constraintEnd_toStartOf="@+id/whatsappButton"
+            app:layout_constraintTop_toBottomOf="@+id/nameText"
+            app:layout_constraintBottom_toTopOf="@+id/dateText"/>
+            
+        <!-- Date / Stats Description -->
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp"
+            app:layout_constraintStart_toStartOf="@+id/nameText"
+            app:layout_constraintEnd_toStartOf="@+id/whatsappButton"
+            app:layout_constraintTop_toBottomOf="@+id/numberText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Bugün, 14:30"/>
+
+        <!-- WhatsApp Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/whatsappButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            style="@style/Widget.Material3.Button.IconButton"
+            app:icon="@drawable/ic_whatsapp"
+            app:iconTint="@color/white"
+            app:backgroundTint="@color/whatsapp_green"
+            app:iconSize="24dp"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:cornerRadius="24dp"
+            android:padding="0dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

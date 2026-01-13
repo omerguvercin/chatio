@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatio</string>
+    
+    <!-- Tab titles -->
+    <string name="tab_calls">المكالمات</string>
+    <string name="tab_messages">الرسائل</string>
+    <string name="tab_stats">التحليل</string>
+    
+    <!-- Main screen -->
+    <string name="message_hint">مرحباً</string>
+    <string name="message_label">رسالة واتساب</string>
+    <string name="default_message">مرحباً</string>
+    <string name="filter_contacts_label">عرض جهات الاتصال</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="permission_call_log">مطلوب إذن لقراءة سجل المكالمات.</string>
+    <string name="permission_sms">مطلوب إذن لقراءة سجل الرسائل القصيرة.</string>
+    <string name="permission_contacts">مطلوب إذن لرؤية أسماء الجهات الاتصال.</string>
+    <string name="permission_denied">تم رفض الإذن</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="cancel">إلغاء</string>
+    <string name="permission_dialog_message">يحتاج هذا التطبيق إلى هذه الأذونات ليعمل:\n\n• سجل المكالمات: لرؤية الأرقام التي اتصلت بها\n• سجل الرسائل القصيرة: لرؤية الأرقam التي راسلتها\n• جهات الاتصال: لرؤية الأسماء بدلاً من الأرقام</string>
+    <string name="permission_denied_message">لا يمكن للتطبيق العمل بدون هذه الأذونات.</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="exit">خروج</string>
+    
+    <!-- WhatsApp -->
+    <string name="whatsapp_not_installed">واتساب غير مثبت</string>
+    <string name="whatsapp_not_installed_message">يرجى تثبيت تطبيق واتساب.</string>
+    <string name="open_whatsapp">فتح في واتساب</string>
+    
+    <!-- List -->
+    <string name="no_calls">لم يتم العثور على سجل مكالمات</string>
+    <string name="no_calls_filtered">لا توجد مكالمات مسجلة في جهات الاتصال</string>
+    <string name="no_messages">لم يتم العثور على سجل رسائل</string>
+    <string name="no_messages_filtered">لا توجد رسائل مسجلة في جهات الاتصال</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="unknown_contact">غير معروف</string>
+    
+    <!-- Date format -->
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+
+    <!-- Fast Action Dialog -->
+    <string name="dialog_input_title">أدخل الرقم</string>
+    <string name="dialog_input_hint">رقم الهاتف (مثال: 5551234567)</string>
+    <string name="dialog_input_btn">بدء الدردشة</string>
+    <string name="tv_history_title">الأرقام الأخيرة</string>
+
+    <!-- Swipe Actions -->
+    <string name="action_call">اتصال</string>
+    <string name="action_copy">تم النسخ</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">أهم جهات الاتصال</string>
+    <string name="no_stats">لا توجد بيانات كافية</string>
+    <string name="stats_incoming">الواردة</string>
+    <string name="stats_outgoing">الصادرة</string>
+    <string name="stats_missed">الفائتة</string>
+    <string name="stats_total">المجموع</string>
+    <string name="stats_messages">الرسائل</string>
+
+    <!-- Settings & Info -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="use_wa_business">استخدام واتساب للأعمال</string>
+    <string name="language_title">اختيار اللغة</string>
+    <string name="close">إغلاق</string>
+    <string name="app_description">ابدأ دردشة واتساب بسرعة مع أرقام غير محفوظة في جهات الاتصال الخاصة بك.</string>
+    
+    <!-- Accessibility -->
+    <string name="add_contact_button_description">إضافة إلى جهات الاتصال</string>
+</resources>

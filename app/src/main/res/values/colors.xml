@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium Color Palette -->
+    
+    <!-- Primary (Canlı Teal/Turkuaz) -->
+    <color name="md_theme_light_primary">#00BFA5</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#E0F2F1</color>
+    <color name="md_theme_light_onPrimaryContainer">#004D40</color>
+    
+    <!-- Secondary (Ocean Blue) -->
+    <color name="md_theme_light_secondary">#0277BD</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#E1F5FE</color>
+    <color name="md_theme_light_onSecondaryContainer">#01579B</color>
+    
+    <!-- Background & Surface -->
+    <color name="md_theme_light_background">#F5F7FA</color> <!-- Hafif gri-mavi -->
+    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#1A1C1E</color>
+    <color name="md_theme_light_surfaceVariant">#E0E0E0</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#64FFDA</color>
+    <color name="md_theme_dark_onPrimary">#00332C</color>
+    <color name="md_theme_dark_primaryContainer">#004D40</color>
+    <color name="md_theme_dark_onPrimaryContainer">#64FFDA</color>
+    
+    <color name="md_theme_dark_secondary">#4FC3F7</color>
+    <color name="md_theme_dark_onSecondary">#002845</color>
+    <color name="md_theme_dark_secondaryContainer">#004C8C</color>
+    <color name="md_theme_dark_onSecondaryContainer">#E1F5FE</color>
+    
+    <color name="md_theme_dark_background">#121212</color>
+    <color name="md_theme_dark_onBackground">#E1E1E1</color>
+    <color name="md_theme_dark_surface">#1E1E1E</color>
+    <color name="md_theme_dark_onSurface">#E1E1E1</color>
+    <color name="md_theme_dark_surfaceVariant">#2C2C2C</color>
+    
+    <!-- WhatsApp Colors (Updated) -->
+    <color name="whatsapp_green">#25D366</color>
+    <color name="whatsapp_surface">#DCF8C6</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#00BFA5</color> <!-- Teal -->
+    <color name="gradient_end">#0277BD</color>   <!-- Blue -->
+    
+    <!-- Text Colors (High Contrast) -->
+    <color name="text_primary">#000000</color> <!-- Tam Siyah -->
+    <color name="text_secondary">#424242</color> <!-- Koyu Gri (Okunabilir) -->
+    <color name="text_hint">#757575</color>
+    
+    <!-- Common -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="ic_launcher_background">#00BFA5</color>
+</resources>

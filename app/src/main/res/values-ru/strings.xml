@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatio</string>
+    
+    <!-- Tab titles -->
+    <string name="tab_calls">Вызовы</string>
+    <string name="tab_messages">Сообщения</string>
+    <string name="tab_stats">Анализ</string>
+    
+    <!-- Main screen -->
+    <string name="message_hint">Привет</string>
+    <string name="message_label">Сообщение WhatsApp</string>
+    <string name="default_message">Привет</string>
+    <string name="filter_contacts_label">Контакты</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="permission_call_log">Требуется разрешение на чтение истории вызовов.</string>
+    <string name="permission_sms">Требуется разрешение на чтение истории SMS.</string>
+    <string name="permission_contacts">Требуется разрешение на просмотр имен контактов.</string>
+    <string name="permission_denied">Разрешение отклонено</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="cancel">Отмена</string>
+    <string name="permission_dialog_message">Этому приложению требуются следующие разрешения для работы:\n\n• Журнал вызовов: Чтобы видеть номера, по которым вы звонили\n• История SMS: Чтобы видеть номера, по которым вы писали\n• Контакты: Чтобы видеть имена вместо номеров</string>
+    <string name="permission_denied_message">Приложение не может работать без этих разрешений.</string>
+    <string name="retry">Повторить</string>
+    <string name="exit">Выход</string>
+    
+    <!-- WhatsApp -->
+    <string name="whatsapp_not_installed">WhatsApp не установлен</string>
+    <string name="whatsapp_not_installed_message">Пожалуйста, установите WhatsApp.</string>
+    <string name="open_whatsapp">Открыть в WhatsApp</string>
+    
+    <!-- List -->
+    <string name="no_calls">История вызовов не найдена</string>
+    <string name="no_calls_filtered">Нет звонков из контактов</string>
+    <string name="no_messages">История SMS не найдена</string>
+    <string name="no_messages_filtered">Нет сообщений из контактов</string>
+    <string name="loading">Загрузка…</string>
+    <string name="unknown_contact">Неизвестно</string>
+    
+    <!-- Date format -->
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+
+    <!-- Fast Action Dialog -->
+    <string name="dialog_input_title">Введите номер</string>
+    <string name="dialog_input_hint">Номер телефона (например: 5551234567)</string>
+    <string name="dialog_input_btn">Начать чат</string>
+    <string name="tv_history_title">Последние номера</string>
+
+    <!-- Swipe Actions -->
+    <string name="action_call">Позвонить</string>
+    <string name="action_copy">Скопировано</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">Топ контактов</string>
+    <string name="no_stats">Недостаточно данных</string>
+    <string name="stats_incoming">Входящие</string>
+    <string name="stats_outgoing">Исходящие</string>
+    <string name="stats_missed">Пропущенные</string>
+    <string name="stats_total">Всего</string>
+    <string name="stats_messages">Сообщения</string>
+
+    <!-- Settings & Info -->
+    <string name="settings_title">Настройки</string>
+    <string name="use_wa_business">Использовать WhatsApp Business</string>
+    <string name="language_title">Выбор языка</string>
+    <string name="close">Закрыть</string>
+    <string name="app_description">Быстро начинайте чат в WhatsApp с номерами, не сохраненными в ваших контактах.</string>
+    
+    <!-- Accessibility -->
+    <string name="add_contact_button_description">Добавить в контакты</string>
+</resources>

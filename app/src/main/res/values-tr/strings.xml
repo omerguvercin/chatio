@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatio</string>
+    
+    <!-- Tab başlıkları -->
+    <string name="tab_calls">Çağrılar</string>
+    <string name="tab_messages">Mesajlar</string>
+    <string name="tab_stats">Analiz</string>
+    
+    <!-- Ana ekran -->
+    <string name="message_hint">Merhaba</string>
+    <string name="message_label">WhatsApp Mesajı</string>
+    <string name="default_message">Merhaba</string>
+    <string name="filter_contacts_label">Rehberdekiler</string>
+    
+    <!-- İzinler -->
+    <string name="permission_required">İzin Gerekli</string>
+    <string name="permission_call_log">Çağrı geçmişini okumak için izin gerekiyor.</string>
+    <string name="permission_sms">SMS geçmişini okumak için izin gerekiyor.</string>
+    <string name="permission_contacts">Kişi isimlerini görmek için izin gerekiyor.</string>
+    <string name="permission_denied">İzin verilmedi</string>
+    <string name="grant_permission">İzin Ver</string>
+    <string name="cancel">İptal</string>
+    <string name="permission_dialog_message">Bu uygulama çalışmak için şu izinlere ihtiyaç duyar:\n\n• Çağrı geçmişi: Aradığınız numaraları görmek için\n• SMS geçmişi: Mesajlaştığınız numaraları görmek için\n• Kişiler: Numara yerine kişi isimlerini görmek için</string>
+    <string name="permission_denied_message">İzinler olmadan uygulama çalışamaz.</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="exit">Çıkış</string>
+    
+    <!-- WhatsApp -->
+    <string name="whatsapp_not_installed">WhatsApp yüklü değil</string>
+    <string name="whatsapp_not_installed_message">WhatsApp uygulamasını yükleyin.</string>
+    <string name="open_whatsapp">WhatsApp\'ta Aç</string>
+    
+    <!-- Liste -->
+    <string name="no_calls">Çağrı geçmişi bulunamadı</string>
+    <string name="no_calls_filtered">Rehber kaydı olan çağrı yok</string>
+    <string name="no_messages">SMS geçmişi bulunamadı</string>
+    <string name="no_messages_filtered">Rehber kaydı olan mesaj yok</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="unknown_contact">Bilinmeyen</string>
+    
+    <!-- Tarih formatı -->
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+
+    <!-- Hızlı İşlem Dialog -->
+    <string name="dialog_input_title">Numara Gir</string>
+    <string name="dialog_input_hint">Telefon Numarası (Örn: 5551234567)</string>
+    <string name="dialog_input_btn">Sohbeti Başlat</string>
+    <string name="tv_history_title">Son Girilenler</string>
+
+    <!-- Swipe Actions -->
+    <string name="action_call">Ara</string>
+    <string name="action_copy">Kopyalandı</string>
+
+    <!-- İstatistikler -->
+    <string name="stats_title">En Sık Görüşülenler</string>
+    <string name="no_stats">Yeterli veri yok</string>
+    <string name="stats_incoming">Gelen</string>
+    <string name="stats_outgoing">Giden</string>
+    <string name="stats_missed">Cevapsız</string>
+    <string name="stats_total">Toplam</string>
+    <string name="stats_messages">Mesaj</string>
+
+    <!-- Settings & Info -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="use_wa_business">WhatsApp Business Kullan</string>
+    <string name="language_title">Dil Seçimi</string>
+    <string name="close">Kapat</string>
+    <string name="app_description">Rehberinizde kayıtlı olmayan numaralarla, hızlıca WhatsApp üzerinden sohbet başlatın.</string>
+    
+    <!-- Accessibility -->
+    <string name="add_contact_button_description">Rehbere Ekle</string>
+</resources>

@@ -24,13 +24,6 @@ Chatio, çağrı ve SMS geçmişinizdeki numaraları rehberinize kaydetmeden san
 - **Java Sürümü:** 17
 - **Gradle:** 8.13
 
-## 📦 Kurulum ve Çalıştırma
-
-1. Projeyi bilgisayarınıza indirin veya klonlayın.
-2. **Android Studio Jellyfish** (veya üzeri) ile projeyi açın.
-3. `File > Settings > Build Tools > Gradle` kısmından **Gradle JDK**'yı 17 veya 21 olarak seçtiğinizden emin olun.
-4. Projeyi Sync edin ve cihazınızda çalıştırın.
-
 ## 🔒 İzinler Hakkında
 
 Uygulamanın çalışabilmesi için şu izinler gereklidir (Uygulama hiçbir veriyi dışarıya göndermez, her şey yerel olarak işlenir):
